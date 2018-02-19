@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Demo", "BattleShips.Demo\BattleShips.Demo.csproj", "{FDC7F366-B6D9-4089-958E-1CDEDBC792E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Demo.Game", "BattleShips.Demo.Game\BattleShips.Demo.Game.csproj", "{FDC7F366-B6D9-4089-958E-1CDEDBC792E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Demo.Console", "BattleShips.Demo.Console\BattleShips.Demo.Console.csproj", "{4BA8F27C-913F-4767-B84B-38C591683EF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Demo.ConsoleApp", "BattleShips.Demo.ConsoleApp\BattleShips.Demo.ConsoleApp.csproj", "{4BA8F27C-913F-4767-B84B-38C591683EF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8175314-ED80-4709-85F9-990CBA620FA9}"
+	ProjectSection(SolutionItems) = preProject
+		Battleships.ruleset = Battleships.ruleset
+		Stylecop.json = Stylecop.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
